@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T06:31:47.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uuDgb5VItrWoUmPYenrD" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T06:40:05.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="buYj5I9nCqefXAp2nOOK" version="24.4.7" type="github">
   <diagram name="第 1 页" id="d0vkmH2pamWl0RuNKjzO">
     <mxGraphModel dx="2234" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="8cizAA6b8KzGThsObKtE-30" value="负载均衡算法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="97" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8cizAA6b8KzGThsObKtE-33" value="&lt;div&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;负载均衡算法&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;（&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;环形队列Hash映射模型，（ip+port）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MD5产生唯一ID）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;一、服务等分情况&lt;/b&gt;：&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.服务节点0-2^&lt;/span&gt;&lt;sup style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;32&lt;/font&gt;&lt;/sup&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-1&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.分段处理服务，[0,node1]，[node1,node2]，[node2,node3]&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3.服务落在区间内，由Id最大者提供服务，svc1由node1提供服务&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;二、服务不等分情况&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.产生虚拟node，在node上衍生，加上1、2、3...，产生虚拟节点&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="-608" y="1" width="444" height="189.5" as="geometry" />
+        <mxCell id="8cizAA6b8KzGThsObKtE-33" value="&lt;div&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;负载均衡算法&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;（&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;环形队列Hash映射模型，（ip+port）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MD5产生唯一ID）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;一、服务等分情况&lt;/b&gt;：&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.服务节点0-2^&lt;/span&gt;&lt;sup style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;32&lt;/font&gt;&lt;/sup&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-1&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.分段处理服务，[0,node1]，[node1,node2]，[node2,node3]&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3.服务落在区间内，由Id最大者提供服务，svc1由node1提供服务&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;二、服务不等分情况&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.产生虚拟node，在node上衍生，加上1、2、3...，产生虚拟节点&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2.svc落在[node3,virtual1]区间内，服务最后由node1提供&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="17.25" width="444" height="189.5" as="geometry" />
         </mxCell>
         <mxCell id="8cizAA6b8KzGThsObKtE-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-38" target="8cizAA6b8KzGThsObKtE-40">
           <mxGeometry relative="1" as="geometry" />
@@ -74,28 +74,28 @@
           <mxGeometry x="15" y="253" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="8cizAA6b8KzGThsObKtE-46" value="svc" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-88" y="447" width="40" height="20" as="geometry" />
+          <mxGeometry x="-38" y="453" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8cizAA6b8KzGThsObKtE-49" value="负载均衡算法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8cizAA6b8KzGThsObKtE-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-55" target="8cizAA6b8KzGThsObKtE-56">
+        <mxCell id="8cizAA6b8KzGThsObKtE-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-55" target="8cizAA6b8KzGThsObKtE-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8cizAA6b8KzGThsObKtE-55" value="node1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-46" y="453" width="40" height="40" as="geometry" />
+        <mxCell id="8cizAA6b8KzGThsObKtE-55" value="virtual 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="453" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8cizAA6b8KzGThsObKtE-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-56" target="8cizAA6b8KzGThsObKtE-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8cizAA6b8KzGThsObKtE-56" value="node2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-111" y="395" width="40" height="40" as="geometry" />
+        <mxCell id="8cizAA6b8KzGThsObKtE-56" value="virtual 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="365" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8cizAA6b8KzGThsObKtE-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-57" target="8cizAA6b8KzGThsObKtE-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8cizAA6b8KzGThsObKtE-57" value="node3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-111" y="322" width="40" height="40" as="geometry" />
+          <mxGeometry x="-102" y="294" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
