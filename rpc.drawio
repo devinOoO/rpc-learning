@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T07:29:18.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mKd72UfGe1SvANwNw_Fm" version="24.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T07:36:50.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Rv8bT2Nonf9gJMGxyN-X" version="24.4.7" type="github">
   <diagram name="第 1 页" id="d0vkmH2pamWl0RuNKjzO">
     <mxGraphModel dx="2234" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,8 +139,20 @@
         <mxCell id="8cizAA6b8KzGThsObKtE-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-106" target="8cizAA6b8KzGThsObKtE-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8cizAA6b8KzGThsObKtE-106" value="负载均衡算法" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="8cizAA6b8KzGThsObKtE-106" value="负载均衡算法" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-530" y="481" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8cizAA6b8KzGThsObKtE-108" value="负载均衡模块" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-198" y="477" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8cizAA6b8KzGThsObKtE-112" value="InvocationHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8" y="382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8cizAA6b8KzGThsObKtE-115" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.458;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8cizAA6b8KzGThsObKtE-86" target="8cizAA6b8KzGThsObKtE-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8cizAA6b8KzGThsObKtE-118" value="Proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="18" y="479" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
